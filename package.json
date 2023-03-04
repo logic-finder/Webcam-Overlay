@@ -1,0 +1,14 @@
+{
+  "name": "webcam_overlay",
+  "version": "1.0.0",
+  "description": "A simple program for overlaying a webcam and drawing simple things.",
+  "main": "",
+  "scripts": {
+    "start": "electron source/js/MAIN.js"
+  },
+  "author": "Cor (logicseeker@naver.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.3"
+  }
+}

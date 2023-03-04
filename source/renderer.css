@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body#layout {
+    height: inherit;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    cursor: none;
+}
+
+p#program-state-text {
+    position: absolute;
+    right: 15px;
+    bottom: 75px;
+    font-family: 'Cascadia Code';
+    font-size: 14px;
+    user-select: none;
+    white-space: pre;
+    text-align: left;
+}
