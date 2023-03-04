@@ -2,7 +2,7 @@
 #include <bitset>
 #include <Windows.h>
 #include <strsafe.h>
-#include "mouseHookDll.h"
+#include "hookDll.h"
 
 LRESULT CALLBACK mouseHookProcedure(
 	_In_ int	behaviorCode,

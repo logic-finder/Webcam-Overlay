@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <bitset>
 #include <Windows.h>
-#include "mouseHookDll.h"
+#include "hookDll.h"
 
 #pragma comment(lib, "user32.lib")
 
